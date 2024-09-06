@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+
+#wrapper{ 
+    width: 1200px;
+    margin: 0% auto;
+    border: 1px solid black;
+    height: auto;
+}
+.flex-container { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: DodgerBlue;
+    height: 100px;
+    
+   
+  }
+.logo{
+    background-image: url(../images/angry\ re.png);
+    width: 100px;
+    height: 50px;
+    background-repeat: no-repeat;
+
+  }
+  .navbar {
+    background-color: antiquewhite;
+    display: flex;
+    font-size: x-large;
+  }
+
+  a {
+    text-decoration: none;
+    padding: 10px;
+  }
+  a:hover {
+    background-color:rgb(235, 19, 15);
+    padding: 10px;    
+  }
+  .navbar div{
+    display: flex;
+    width: 119px;
+    padding: 10px;
+    margin: 10px;
+  }
+    
+.leftbar{
+    width: 15%;
+    float: left;
+    border-right: 1px solid gray;
+    height: 600px;
+    padding: 40px;
+    line-height: 50px;
+    background-color: grey;
+    font-size: x-large;
+}
+.content{
+    float: left;
+    width: 68%;
+    margin-left: 30px;
+    
+}
+.footer{
+    clear: both;
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+
+
+  
